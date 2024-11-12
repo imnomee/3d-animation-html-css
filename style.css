@@ -22,13 +22,19 @@ html {
 }
 .page1 {
     background: orangered;
-    color: #ddd;
+    color: cadetblue;
 }
 .page2 {
     background: cadetblue;
+    color: orangered;
 }
 .page3 {
     background: cornflowerblue;
+    color: goldenrod;
+}
+.page4 {
+    background: hotpink;
+    color: #ddd;
 }
 canvas {
     position: fixed;
