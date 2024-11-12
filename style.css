@@ -12,13 +12,29 @@ html {
 }
 #page {
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 2rem;
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
 }
-
+.page1 {
+    background: orangered;
+    color: #ddd;
+}
+.page2 {
+    background: cadetblue;
+}
+.page3 {
+    background: cornflowerblue;
+}
 canvas {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 10;
 }
