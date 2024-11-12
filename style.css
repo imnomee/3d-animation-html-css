@@ -8,7 +8,10 @@ body,
 html {
     margin: 0;
     padding: 0;
-    height: 500vh; /* Extra height to enable scrolling */
+    height: 100vh; /* Extra height to enable scrolling */
+}
+#page {
+    min-height: 100vh;
 }
 
 canvas {
