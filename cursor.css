@@ -1,0 +1,22 @@
+/* Custom Cursor */
+.cursor-dot {
+    /* background: rgba(255, 255, 255, 0.487); */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cursor-outline {
+    width: 50px;
+    height: 50px;
+    border: 1px dashed rgba(255, 255, 255, 0.487);
+}
+
+.cursor-dot,
+.cursor-outline {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+}
